@@ -3,5 +3,5 @@
 */
 
 if(entity instanceof EntityPlayerSP) {
-        	this.renderLivingLabel(entity, Minecraft.getMinecraft().getSession().getUsername(), x, y, z, 64);
+        	this.renderLivingLabel(entity, entity.getDisplayName().getFormattedText(), x, y, z, 64);
         }
